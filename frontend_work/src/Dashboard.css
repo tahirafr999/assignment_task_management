@@ -1,0 +1,131 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #1e1e2f, #27293d);
+    color: white;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .sidebar nav ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .sidebar nav ul li svg {
+    margin-right: 10px;
+  }
+  
+  /* Main Dashboard */
+  .dashboard-content {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-task-btn {
+    background: #ff4b2b;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-task-btn svg {
+    margin-right: 8px;
+  }
+  
+  /* Task Overview */
+  .task-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    transition: 0.3s;
+  }
+  
+  /* Charts Section */
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .chart-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  /* Task List */
+  .task-list {
+    margin-top: 30px;
+  }
+  
+  .task-list h2 {
+    margin-bottom: 15px;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  .task-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }  
